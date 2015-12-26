@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF21BF611C25A0DA008E06EC /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF21BF601C25A0DA008E06EC /* ChecklistItem.swift */; };
+		AF350CAF1C20B1E500A141C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF350CAE1C20B1E500A141C4 /* AppDelegate.swift */; };
+		AF350CB11C20B1E500A141C4 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF350CB01C20B1E500A141C4 /* ChecklistViewController.swift */; };
+		AF350CB41C20B1E500A141C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF350CB21C20B1E500A141C4 /* Main.storyboard */; };
+		AF350CB61C20B1E500A141C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF350CB51C20B1E500A141C4 /* Assets.xcassets */; };
+		AF350CB91C20B1E500A141C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF350CB71C20B1E500A141C4 /* LaunchScreen.storyboard */; };
+		AF7F94781C27053A0084225E /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F94771C27053A0084225E /* ItemDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF21BF601C25A0DA008E06EC /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		AF350CAB1C20B1E500A141C4 /* Checklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF350CAE1C20B1E500A141C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF350CB01C20B1E500A141C4 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ChecklistViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AF350CB31C20B1E500A141C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF350CB51C20B1E500A141C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF350CB81C20B1E500A141C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF350CBA1C20B1E500A141C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7F94771C27053A0084225E /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF350CA81C20B1E500A141C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF350CA21C20B1E500A141C4 = {
+			isa = PBXGroup;
+			children = (
+				AF350CAD1C20B1E500A141C4 /* Checklist */,
+				AF350CAC1C20B1E500A141C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF350CAC1C20B1E500A141C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF350CAB1C20B1E500A141C4 /* Checklist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF350CAD1C20B1E500A141C4 /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				AF350CAE1C20B1E500A141C4 /* AppDelegate.swift */,
+				AF350CB01C20B1E500A141C4 /* ChecklistViewController.swift */,
+				AF350CB21C20B1E500A141C4 /* Main.storyboard */,
+				AF350CB51C20B1E500A141C4 /* Assets.xcassets */,
+				AF350CB71C20B1E500A141C4 /* LaunchScreen.storyboard */,
+				AF350CBA1C20B1E500A141C4 /* Info.plist */,
+				AF21BF601C25A0DA008E06EC /* ChecklistItem.swift */,
+				AF7F94771C27053A0084225E /* ItemDetailViewController.swift */,
+			);
+			path = Checklist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF350CAA1C20B1E500A141C4 /* Checklist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF350CBD1C20B1E500A141C4 /* Build configuration list for PBXNativeTarget "Checklist" */;
+			buildPhases = (
+				AF350CA71C20B1E500A141C4 /* Sources */,
+				AF350CA81C20B1E500A141C4 /* Frameworks */,
+				AF350CA91C20B1E500A141C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checklist;
+			productName = Checklist;
+			productReference = AF350CAB1C20B1E500A141C4 /* Checklist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF350CA31C20B1E500A141C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Serghei Grigoruta";
+				TargetAttributes = {
+					AF350CAA1C20B1E500A141C4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4268BUY28Y;
+					};
+				};
+			};
+			buildConfigurationList = AF350CA61C20B1E500A141C4 /* Build configuration list for PBXProject "Checklist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF350CA21C20B1E500A141C4;
+			productRefGroup = AF350CAC1C20B1E500A141C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF350CAA1C20B1E500A141C4 /* Checklist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF350CA91C20B1E500A141C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF350CB91C20B1E500A141C4 /* LaunchScreen.storyboard in Resources */,
+				AF350CB61C20B1E500A141C4 /* Assets.xcassets in Resources */,
+				AF350CB41C20B1E500A141C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF350CA71C20B1E500A141C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF350CB11C20B1E500A141C4 /* ChecklistViewController.swift in Sources */,
+				AF7F94781C27053A0084225E /* ItemDetailViewController.swift in Sources */,
+				AF21BF611C25A0DA008E06EC /* ChecklistItem.swift in Sources */,
+				AF350CAF1C20B1E500A141C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF350CB21C20B1E500A141C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF350CB31C20B1E500A141C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF350CB71C20B1E500A141C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF350CB81C20B1E500A141C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF350CBB1C20B1E500A141C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF350CBC1C20B1E500A141C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF350CBE1C20B1E500A141C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Checklist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gscorp.Checklist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF350CBF1C20B1E500A141C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Checklist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gscorp.Checklist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF350CA61C20B1E500A141C4 /* Build configuration list for PBXProject "Checklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF350CBB1C20B1E500A141C4 /* Debug */,
+				AF350CBC1C20B1E500A141C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF350CBD1C20B1E500A141C4 /* Build configuration list for PBXNativeTarget "Checklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF350CBE1C20B1E500A141C4 /* Debug */,
+				AF350CBF1C20B1E500A141C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF350CA31C20B1E500A141C4 /* Project object */;
+}
